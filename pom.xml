@@ -357,5 +357,10 @@
             <version>1.0</version>
             <systemPath>${project.basedir}/repo/zfj-cloud-rest-client-1.2-jar-with-dependencies.zip</systemPath>
         </dependency>
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.9.2</version>
+        </dependency>
     </dependencies>
 </project>
