@@ -62,35 +62,36 @@ public class WikiHomePage {
    */
   @SneakyThrows
   public void clickListElement() {
-    Thread.sleep(2000);
+//    Thread.sleep(2000);
+
     getListBy().click();
 //    test.get().log(Status.INFO, "Clicked List/Alert", MediaEntityBuilder.createScreenCaptureFromBase64String(takeScreenshotAsBase64()).build());
   }
 
   @SneakyThrows
   public void clickHistoryElement() {
-    Thread.sleep(2000);
+//    Thread.sleep(2000);
     getHistoryBy().click();
 //    test.get().log(Status.INFO, "Clicked History/OK", MediaEntityBuilder.createScreenCaptureFromBase64String(takeScreenshotAsBase64()).build());
   }
 
   @SneakyThrows
   public void clickNearbyElement() {
-    Thread.sleep(2000);
+//    Thread.sleep(2000);
     getNearOrTextBtn().click();
 //    test.get().log(Status.INFO, "Clicked Nearby/Text box", MediaEntityBuilder.createScreenCaptureFromBase64String(takeScreenshotAsBase64()).build());
   }
 
   @SneakyThrows
   public void clickExploreElement() {
-    Thread.sleep(2000);
+//    Thread.sleep(2000);
     getExploreOrTextInpt().click();
 //    test.get().log(Status.INFO, "Clicked Explore/Test input", MediaEntityBuilder.createScreenCaptureFromBase64String(takeScreenshotAsBase64()).build());
   }
 
   @SneakyThrows
   public void assertInTheNewsTitleIsAsExpected() {
-    Thread.sleep(5000);
+//    Thread.sleep(5000);
     Assert.assertTrue(getInTheNewsTitleBy().isDisplayed());
 //    test.get().log(Status.INFO, "InTheNews", MediaEntityBuilder.createScreenCaptureFromBase64String(takeScreenshotAsBase64()).build());
   }
